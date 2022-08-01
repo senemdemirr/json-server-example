@@ -1,58 +1,86 @@
 {
-  "users": [
+  "board": [
+  {
+    "title": "Backlog",
+    "cards": [{
+      "taskTitle": "Twilio integration",
+      "taskDescription":"Create new note via SMS. Support text, audio, links, and media.",
+      "id":1
+    }, 
     {
-      "username": "John.x.Doe",
-      "age": 32,
-      "favourite_music_genre": "Jazz",
-      "preferred_programming_language": "Javascript",
-      "best_frontend_framework": "Vue",
-      "id": 1
+      "taskTitle": "Markdown support",
+      "taskDescription":"Markdown shorthand converts to formatting",
+      "id":2
+    }]
+  },
+  {
+    "title": "To Do",
+    "cards": [{
+      "taskTitle": "Tablet view",
+      "taskDescription":"",
+      "id":3
+    }, 
+    {
+      "taskTitle": "Audio recording in note",
+      "taskDescription":"Show audio in a note and playback UI",
+      "id":4
     },
     {
-      "id": 2,
-      "username": "SniperxXx",
-      "age": 23,
-      "favourite_music_genre": "Rap",
-      "preferred_programming_language": "Python",
-      "best_frontend_framework": "React"
-    }
-  ],
-  "todos":[],
-  
-  "polls": [
-    {
-      "question": "Favourite Music Genre?",
-      "options": [
-        "Rock",
-        "Pop",
-        "Country",
-        "Rap",
-        "Jazz",
-        "Hip Hop",
-        "RNB",
-        "None",
-        "Depends"
-      ]
+      "taskTitle": "Bookmark in note",
+      "taskDescription":"Show rich link UI in a note, and feature to render website screenshot.",
+      "id":5
     },
     {
-      "question": "Preferred Programming Language?",
-      "options": [
-        "Java",
-        "C",
-        "C++",
-        "C#",
-        "Javascript",
-        "Python",
-        "Kotlin"
-      ]
-    },
-    {
-      "question": "Better Frontend JS Framework?",
-      "options": [
-        "React",
-        "Vue",
-        "Angular"
-      ]
+      "taskTitle": "Image viewer",
+      "taskDescription":"Opens when clicking on the thumbnail in the list or on the image in the note",
+      "id":6
     }
   ]
+  },
+  {
+    "title": "In progress",
+    "cards": [{
+      "taskTitle": "Mobile view",
+      "taskDescription":"Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons.",
+      "id":7
+    }, 
+    {
+      "taskTitle": "Desktop view",
+      "taskDescription":"PWA for website and native apps. Note: Windows and Mac will need unique share icons.",
+      "id":8
+    },
+    {
+      "taskTitle": "Formatting options",
+      "taskDescription":"Mobile formatting bar expands and collapses when tapping the format icon.",
+      "id":9
+    },
+    {
+      "taskTitle": "Media in note",
+      "taskDescription":"Image & video with player UI",
+      "id":10
+    }
+  ]
+  },
+  {
+    "title": "Designed",
+    "cards": [{
+      "taskTitle": "Audio recording",
+      "taskDescription":"Interface for when recording a new audio note",
+      "id":11
+    }, 
+    {
+      "taskTitle": "Bookmarking",
+      "taskDescription":"Interface for when creating a new link note.",
+      "id":12
+    },
+    {
+      "taskTitle": "Mobile home screen",
+      "taskDescription":"Folders, tags, and notes lists are sorted by recent.",
+      "id":13
+    }
+  ]
+  }
+  
+  
+]
 }
